@@ -40,3 +40,11 @@ let j = 5;
 let o = p + j; // Operador de asignación suma
 console.log("El valor de o es: " + o);
 // muestra: El valor de o es: 15
+
+// 3.5 Usa el correcto operador de asignación que resultará en i = 50
+// Teniendo dos variables c = 10 y m = 5.
+let c = 10;
+let m = 5;
+let i = c * m; // Operador de asignación multiplicación
+console.log("El valor de i es: " + i);
+// muestra: El valor de i es: 50

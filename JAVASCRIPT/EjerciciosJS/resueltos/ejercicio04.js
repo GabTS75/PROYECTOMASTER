@@ -15,14 +15,14 @@ Pista: puedes usar el método length con algo más para ello.
 */
 
 //4.1
-console.log(aldeanos[3]); // Ataca la posición 3 para sacar "Tendo"
+console.log(aldeanos[3]); // Ataca la posición 3 para mostrar "Tendo"
 
 //4.2
-aldeanos.push("Cervasio"); // Coloca "Cervasio" al final del array
+aldeanos.push("Cervasio"); // Agrega a "Cervasio" al final del array
 console.log(aldeanos); // Muestra el array actualizado
 
 //4.3
-aldeanos[0] = "Bambina"; // Cambia el primer elemento por "Bambina"
+aldeanos[0] = "Bambina"; // Cambia el primer elemento (Fibrilio) por "Bambina"
 console.log(aldeanos); // Muestra el array actualizado
 
 //4.4
@@ -30,11 +30,11 @@ aldeanos.reverse(); // Da la vuelta al array
 console.log(aldeanos); // Muestra el array actualizado
 
 //4.5
-const indexNarciso = aldeanos.indexOf("Narciso"); // Encuentra el índice de "Narciso"
+const indexNarciso = aldeanos.indexOf("Narciso"); // Encuentra el índice de "Narciso", es decir, si lo encuentra devuelve su posición, si no lo encuentra devuelve -1
 if (indexNarciso !== -1) {
-  aldeanos[indexNarciso] = "Canela"; // Cambia "Narciso" por "Canela"
+  aldeanos[indexNarciso] = "Canela"; // Cambia a "Narciso" por "Canela"
 }
 console.log(aldeanos); // Muestra el array actualizado
 
 //4.6
-console.log(aldeanos[aldeanos.length - 1]); // Imprime el último elemento sin atacar la posición explícitamente
+console.log(aldeanos[aldeanos.length - 1]); // Mostrará el último elemento sin atacar la posición explícitamente, es decir, usando length para calcular la posición del último elemento, osea length cuenta que son 6 elementos y le resta 1 para atacar la posición 5 (el último)

@@ -27,8 +27,8 @@ for (let i = 0; i < 10; i++) {
 //6.3
 for (let i = 1; i <= 10; i++) {
     if (i < 10) {
-        console.log("Intentando dormir 🐑 " + i + " vuelta"); // Muestra el mensaje para las primeras 9 vueltas
+        console.log("Intentando dormir.. " + i + " vuelta " + "🐑"); // Muestra el mensaje para las primeras 9 vueltas
     } else {
-        console.log("vuelta " + i + "..¡Dormido!"); // Muestra el mensaje en la décima vuelta
+        console.log(i + " vuelta.. por fin ¡Dormido! 😴😴😴"); // Muestra el mensaje en la décima vuelta
     }
 }
